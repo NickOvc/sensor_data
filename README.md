@@ -1,24 +1,7 @@
 # README
+ 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* API Schema:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 'api/v1/create_sensor_data' requires contextMap with [name location device location_max_capacity] string fields
+* 'api/v1/read_sensor_data' requires _id and optional [start_date end_date] fields. If dates are not provided - all sensor data will be returned 
